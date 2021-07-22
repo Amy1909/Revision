@@ -1,0 +1,231 @@
+.div-general{
+    width: 100%;
+    margin: 0, auto;
+}
+
+.contain{
+    width: 100%;
+    height: 17rem;
+    background-size: 100%;
+    background-image: url(../img/css03.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.etiqueta-center{
+    color: white;
+    font-size: var(--parrafo);
+    text-align: center;
+}
+
+.parrafo-1{
+    font-size: var(--parrafo);
+    font-family: sans-serif;
+    color:black;
+    text-align: justify;
+   
+}
+
+.img1 img{
+    width: 25rem;
+    height: 13rem;
+    float: right; 
+    margin: 0rem 0rem 0rem 2rem;
+}
+
+.title-td{
+    text-align: justify;
+    padding: 0.5rem;
+    font-size: var(--parrafo);    
+}
+
+.nav-2{
+    
+    font-size: var(--title-h2);
+    font-family:monospace;
+    color: white;
+    text-align: justify;
+    background: #D98943;
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    text-align: center;
+}
+
+.lu{
+    font-size: var(--parrafo);
+    font-family: sans-serif;
+    color: black;
+    text-align: justify; 
+}
+
+.title-2{
+    background: var(--color5);
+    font-family: monospace;
+    font-size: var(--title-h2);
+    text-align: center;
+    color: white;
+    margin: 2rem 0rem;
+}
+
+.css-table{
+    background: var(--color2);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.contain h1{
+    font-family: sans-serif;
+    color: white; 
+    font-size: 5rem;
+    padding-top: -0.5rem;
+}
+
+
+.td-5{
+    text-align: center;
+     font-size: 2rem;
+     color: black; 
+     font-family:sans-serif 
+ }
+
+.img-4{
+    width: 45rem;
+    height: 30rem;
+    float:right;
+    margin: 7rem 5rem 5rem 5rem;
+}
+
+.contain-2{
+    width: 60rem;
+    height: 30rem;
+    float: inherit;
+}
+
+.nav-3{
+    background: var(--color3);
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: center;
+    color: white
+}
+
+/*Edición de tablas*/
+
+
+
+.contain-etiquetas{
+    width: 100%;
+    margin: 3rem 3rem;
+}
+
+footer{
+    height: 3rem;
+    font-size: var(--title-h3);
+    color: white;
+    background-color: var(--color3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*responsive*/
+@media screen and (max-width: 376px) {
+    /* STYLES HERE */
+   :root{
+       --phone-laterh1: 2rem;
+       --phone-laterh2: 1.5rem;
+       --phone-laterh3: 1.3rem;
+       --phone-paraf: 1rem;
+   }
+   
+   .div-general{
+       width: 100%;
+   }
+   /*tablas*/
+   .contain-etiquetas{
+       width: 20%;
+       margin: 2rem 0rem 2rem 3rem;
+   }
+   
+   .contain h1{
+       font-size: var(--phone-laterh1);
+   }
+   
+   .contain h2{
+        font-size: var(--phone-laterh1);
+   }
+
+   .parrafo-1{
+       font-size: var(--phone-paraf);
+
+   }
+   .parrafo-1 img{
+       width: 15rem;
+       height: 9rem;
+   }
+   .tabla-titulo{
+       text-align: center;
+       font-size: var(--phone-laterh2);
+       margin: 0px;
+       padding: 0px;
+   }
+   .title-td{
+       width: 10%;
+       font-size: var(--phone-paraf);
+       margin: 0.5rem;
+       
+   }
+   .nav-2{
+       font-size: var(--phone-laterh1);
+   }
+   .sintaxis-html{
+       display: none;
+   }
+   .title-2{
+       font-size: var(--phone-laterh1);
+   }
+
+   .sintaxis-css{
+       display: none;
+   }
+   .img-4{
+       display: none;
+   }
+
+   .contain-2{
+       display: none;
+   }
+   .conet{
+       display: none;
+   }
+   /*tablas-css*/
+   .table-css td{
+       width: 375px;
+        font-size: 2px;
+   }
+
+   .css-table{
+       width: 27.5%;
+       margin: 0px;
+       font-size: 10px;
+   }
+
+   .nav-3{
+       font-size: 8px;
+   }
+   .composition{
+       font-size: 4px;
+   }
+
+
+   /*footer*/
+   footer{
+       font-size: var(--phone-paraf);
+   }
+
+  }
+

@@ -1,0 +1,80 @@
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: var(--color4);
+    background-image: linear-gradient(45deg, #fd9558 0%, #ffb761 33%, #4fd28f 66%, #1ebbc3 100%);
+
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+    align-items: center;
+}
+
+:root{
+    --color1: #4FD28F;
+    --color2: #FD9558;
+    --color3: #FFB761;
+    --color4: #1EBBC3;
+    --color5: #588C8C;
+    
+}
+
+.logo{
+    color: white;
+    font-family: monospace;
+    
+    
+}
+.nav {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px; 
+    list-style: none;
+    width: 200px; 
+    color: white;
+    
+    
+}
+
+.pc{
+    width: 10rem;
+    text-align: center;
+
+}
+
+
+.hipervinculo{
+   color: white;
+    text-decoration: none;
+    font-family: monospace; 
+    font-size: 20px;
+    width: 30rem;
+    height: 30px;
+    
+}
+
+.pc:hover{
+    width: 10rem;
+    transition: 0.3s;
+    border-radius: 20px; 
+    background-image: linear-gradient(180deg, #a8d5c6 0, #97cec1 12.5%, #83c7bd 25%, #6dbfba 37.5%, #51b7b7 50%, #2aaeb5 62.5%, #00a6b5 75%, #009eb6 87.5%, #0097b7 100%);
+    text-align: center;    
+}
+
+    @media screen and (max-width: 375px) {
+        /* STYLES HERE */
+        header{
+            height: 100px;
+        }
+
+        .nav{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    

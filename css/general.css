@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif,monospace;
+
+}
+
+/*paleta de colores*/
+:root {
+    --color1: #4FD28F;
+    --color2: #FD9558;
+    --color3: #FFB761;
+    --color4: #1EBBC3;
+    --color5: #588C8C;
+}
+
+:root{
+    --title-h1: 5.5rem;
+    --title-h2: 3.4rem;
+    --title-h3: 2.1rem;
+    --parrafo: 1.3rem;
+}
